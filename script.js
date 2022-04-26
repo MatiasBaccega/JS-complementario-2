@@ -1,8 +1,9 @@
-let nombre;
 let lenguaje = ["ingles", "español", "portuges"]
 let personaje = []
 
+
 const saludo = () => {
+    let nombre;
     do{
         nombre = prompt("Bienvenido a CODER-landia. \nIngrese su nombre");
 
@@ -40,10 +41,10 @@ const crearPersonaje = () => {
 }
 
 
+
 saludo();
 idioma ();
 crearPersonaje ();
-
 
 
 
